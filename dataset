@@ -1,0 +1,17 @@
+import pandas as pd
+
+# Creación del dataset de ejemplo
+data = {
+    'estacion_origen': ['A', 'A', 'B', 'B', 'C', 'D'],
+    'estacion_destino': ['B', 'C', 'C', 'D', 'D', 'E'],
+    'costo': [5, 10, 3, 7, 2, 3],
+    'distancia_km': [3, 8, 2, 5, 3, 4],
+    'tiempo_minutos': [10, 15, 8, 12, 6, 10],
+    'demanda_pasajeros': [120, 90, 140, 100, 80, 110]
+}
+
+# Creación de un DataFrame
+df = pd.DataFrame(data)
+
+# Ver el dataset
+print(df)
